@@ -1,0 +1,156 @@
+*{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.bottom > img {
+    border: 5px solid rgb(116, 116, 116);
+    border-radius: 10px;
+}
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+.banner {
+
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(44, 52, 59);
+}
+.banner > * {
+    padding: 0px 300px 70px 300px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topright {
+    display: flex;
+    padding-top:20px;
+    gap:1rem;
+    font-size: x-large;
+    margin:0;
+    list-style: none;
+    
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.large {
+    font-size: 50px;
+    width: max-content;
+}
+.small {
+    font-size: 20px;
+    width: fit-content;
+    color: rgb(255, 255, 255, .7)
+}
+button {
+    background-color: rgb(0, 140, 255);
+    border-radius: 8px;
+    font-size: x-large;
+    padding:30px;
+    font-weight: bolder;
+
+
+
+}
+.column > * {
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.hall {
+    align-self: center;
+    color: black;
+    font-size:50px;
+    padding:50px;
+    
+}
+.people > * {
+    height:auto;
+    margin:30px;
+    width: 300px;
+    
+}
+.people img {
+    border:5px solid blueviolet;
+    border-radius: 9px;
+    height: 300px;
+}
+
+.people {
+    display:flex;
+    justify-content: center;
+    
+}
+.columns {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    
+}
+.description {
+    color: rgba(0, 0, 0, 0.753);
+    max-width: 300px;
+    
+}
+
+.third {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 400px 100px 400px;
+    margin:50px 0px 50px 0px;
+}
+.quote{
+    color: rgba(0, 0, 0, 0.61);
+    font-style: italic;
+    font-size: x-large;
+
+}
+.quoter{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+.sign {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 140, 255);
+    margin: 100px 400px 100px 400px;
+    padding: 50px 100px 50px 100px;
+    border-radius: 12px;
+    gap: 150px;
+}
+.join {
+    flex-direction: column;
+
+}
+
+.signup {
+    color: white;
+    padding:10px 30px 10px 30px;
+
+}
+.head {
+    font-weight: bolder;
+    font-size: x-large;
+}
+.fifth {
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    padding:30px;
+    justify-content: center;
+}
